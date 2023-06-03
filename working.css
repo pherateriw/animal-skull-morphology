@@ -1,0 +1,38 @@
+body {
+    background: #bea084;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+#heading {
+    color: #473836;
+    font-size: 3rem;
+}
+
+#heading span {
+    color: #f1e8df;
+}
+
+.skull-header p{
+    color: #473836;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+.skull-header i {
+    color: #95775e;
+    font-size: 3rem;
+
+}
+
+@media (max-width:576px) {
+    #heading {
+        font-size: 2rem;
+    }
+    .skull-header p {
+        font-size: 1rem;
+    }
+    .skull-header i {
+        font-size: 2rem;
+    }
+}
