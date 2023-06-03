@@ -4,4 +4,3 @@ deployment:
     - export DEPLOYPATH=/home/neatlewp/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp working.css $DEPLOYPATH
-    
